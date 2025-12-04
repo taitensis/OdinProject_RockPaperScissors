@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gameActionBtn {
+  width: 5rem;
+  height: auto;
+  background-color: rgb(48, 121, 48);
+  color: white;
+  border-style: none;
+  font-weight: 600;
+}
+
+.gameUIBtn {
+  border: 3px rgb(48, 121, 48) solid;
+  background-color: white;
+  color: rgb(48, 121, 48);
+  font-weight: bold;
+}
